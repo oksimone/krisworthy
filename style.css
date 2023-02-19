@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'room_205regular';
-    src: url('room205-regular-webfont.woff2') format('woff2'),
-         url('room205-regular-webfont.woff') format('woff');
+    src: url('/krisworthy/room205-regular-webfont.woff2') format('woff2'),
+         url('/krisworthy/room205-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,9 +12,3 @@
 body{
     background-color: #FAF9F6;
 }
-
-.testing{
-    font-family:'room_205regular';
-    font-size: 3rem !important;
-}
-
