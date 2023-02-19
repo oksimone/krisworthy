@@ -38,3 +38,7 @@ text color: #12529
     width: 100% !important;
     max-width: 20rem !important;
 }
+
+.columnntext{
+    width: 70% !important;
+}
