@@ -44,3 +44,38 @@ text color: #12529
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
 }
+
+.projrow{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width:1025px){
+    .projrow{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+.projcol1{
+display: flex;
+width:25%;
+}
+.projcol2{
+    display: flex;
+    width:50%;
+}
+.projcol3{
+    display: flex;
+    width:25%;
+}
