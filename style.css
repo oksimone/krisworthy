@@ -34,7 +34,7 @@ p{
 text color: #12529
 */
 
-.col img {
+.subimg img {
     width: 100% !important;
     max-width: 20rem !important;
 }
