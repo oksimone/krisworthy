@@ -8,6 +8,7 @@
     font-style: normal;
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
 
 body{
     background-color: #FAF9F6;
@@ -15,5 +16,20 @@ body{
 
 h1{
     font-family: 'room_205regular';
-    font-size: 5rem !important;
+    font-size: 2.5rem !important;
 }
+.mainhead{
+    font-size: 8rem !important;  
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*color theme
+#A65729
+#D99066
+#D9CCC5
+#8C4A32
+#260101
+text color: #12529
+*/
