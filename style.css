@@ -57,13 +57,15 @@ text color: #12529
 
 @media(min-width:1025px){
     .projrow{
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+    }
 }
-}
+
 
