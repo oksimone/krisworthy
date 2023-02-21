@@ -67,15 +67,7 @@ text color: #12529
 }
 }
 
-.projcol1{
-display: flex;
-width: 25%;
-height: 80px;
-padding: 10px;
-background-color: hotpink;
-color: #fff !important;
-}
-.projcol2{
+.projboxmid{
     display: flex;
     width:50%;
     height: 80px;
@@ -83,7 +75,7 @@ padding: 10px;
 background-color: hotpink;
 color: #444 !important;
 }
-.projcol3{
+.projbox{
 display: flex;
 width: 25%;
 height: 80px;
