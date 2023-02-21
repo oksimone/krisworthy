@@ -67,19 +67,3 @@ text color: #12529
 }
 }
 
-.projboxmid{
-    display: flex;
-    width:50%;
-    height: 80px;
-padding: 10px;
-background-color: hotpink;
-color: #444 !important;
-}
-.projbox{
-display: flex;
-width: 25%;
-height: 80px;
-padding: 10px;
-background-color: hotpink;
-color: #fff !important;
-}
