@@ -72,7 +72,7 @@ text color: #12529
 .projcol1 {
     width: 25%;
     display:flex !important;
-    background: brown;
+    background: #A65729;
     height:243px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -88,7 +88,7 @@ text color: #12529
 .projcol2 {
     width: 50%;
     display:flex !important;
-    background: brown;
+    background: #A65729;
     height:243px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -103,7 +103,7 @@ text color: #12529
 .projcol3 {
     width: 25%;
     display:flex !important;
-    background: brown;
+    background: #A65729;
     height:243px;
     flex-direction: row;
     flex-wrap: wrap;
