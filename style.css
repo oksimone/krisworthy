@@ -69,3 +69,27 @@ text color: #12529
 }
 
 
+.projcol1 {
+    width: 25%;
+    display:flex !important;
+    background: brown;
+    height:200px;
+
+}
+
+.projcol2 {
+    width: 50%;
+     display:flex !important;
+       display:flex !important;
+    background: brown;
+    padding:2rem;
+    height:200px;
+}
+
+.projcol3 {
+    width: 25%;
+     display:flex !important;
+    background: brown;
+    padding:2rem;
+    height:200px;
+}
