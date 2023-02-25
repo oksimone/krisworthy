@@ -98,6 +98,13 @@ text color: #12529
     align-items: center;
     padding: 5px;
     border: 9px solid #FAF9F6;
+    --mask:
+    radial-gradient(158.76px at 213.00px 50%,#000 99%,#0000 101%) 0 calc(50% - 142px)/51% 284px repeat-y,
+    radial-gradient(158.76px at -142px 50%,#0000 99%,#000 101%) 71px 50%/calc(51% - 71px) 284px repeat-y,
+		radial-gradient(158.76px at calc(100% - 213.00px) 50%,#000 99%,#0000 101%) 100% calc(50% - 142px)/51% 284px repeat-y,
+    radial-gradient(158.76px at calc(100% + 142.00px) 50%,#0000 99%,#000 101%) calc(100% - 71px) 50%/calc(51% - 71px) 284px repeat-y;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
 }
 
 .projcol3 {
@@ -159,11 +166,19 @@ text color: #12529
 /*something different*/
 .subimg img  {
     --mask:
+    radial-gradient(158.76px at 213.00px 50%,#000 99%,#0000 101%) 0 calc(50% - 142px)/51% 284px repeat-y,
+    radial-gradient(158.76px at -142px 50%,#0000 99%,#000 101%) 71px 50%/calc(51% - 71px) 284px repeat-y,
+		radial-gradient(158.76px at calc(100% - 213.00px) 50%,#000 99%,#0000 101%) 100% calc(50% - 142px)/51% 284px repeat-y,
+    radial-gradient(158.76px at calc(100% + 142.00px) 50%,#0000 99%,#000 101%) calc(100% - 71px) 50%/calc(51% - 71px) 284px repeat-y;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+    /*
+    --mask:
       radial-gradient(72.50px at 102.50px 50%,#000 99%,#0000 101%) 0 calc(50% - 100px)/51% 200px repeat-y,
       radial-gradient(72.50px at -52.5px 50%,#0000 99%,#000 101%) 50px 50%/calc(51% - 50px) 200px repeat-y,
           radial-gradient(72.50px at calc(100% - 102.50px) 50%,#000 99%,#0000 101%) 100% calc(50% - 100px)/51% 200px repeat-y,
       radial-gradient(72.50px at calc(100% + 52.50px) 50%,#0000 99%,#000 101%) calc(100% - 50px) 50%/calc(51% - 50px) 200px repeat-y;
     -webkit-mask: var(--mask);
-            mask: var(--mask);
+            mask: var(--mask);*/
   };
 
