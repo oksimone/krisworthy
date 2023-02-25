@@ -89,14 +89,13 @@ text color: #12529
     width: 50%;
     display:flex !important;
     background: #A65729;
-    height:243px;
+    height:344px;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    height: 243px;
     border: 9px solid white;
 }
 
@@ -114,4 +113,30 @@ text color: #12529
     height: 243px;
     border: 9px solid white;
 
+}
+/*media queries*/
+@media(max-width:992px){
+    .projcol1 {
+        width: 50%;
+        display: flex;
+    }
+     .projcol2{
+        width: 50%;
+        display: flex;
+    }
+     .projcol3 {
+        width: 50%;
+         display: flex;
+    }
+    .mainhead{
+        font-size:4rem;
+    }
+}
+@media(max-width:992px){
+.projrow {
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
 }
