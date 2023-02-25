@@ -81,7 +81,8 @@ text color: #12529
     align-items: center;
     padding: 5px;
     height: 243px;
-    border: 9px solid white;
+    border: 9px solid #FAF9F6;
+    ;
 
 }
 
@@ -96,7 +97,7 @@ text color: #12529
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    border: 9px solid white;
+    border: 9px solid #FAF9F6;
 }
 
 .projcol3 {
@@ -111,7 +112,7 @@ text color: #12529
     align-items: center;
     padding: 5px;
     height: 243px;
-    border: 9px solid white;
+    border: 9px solid #FAF9F6;
 
 }
 /*media queries*/
