@@ -155,12 +155,6 @@ text color: #12529
     -webkit-mask: var(--mask);
             mask: var(--mask);
   };
-  
-  .bigorsmalllog{
-    width: 100% !important;
-    max-width: 10rem;
-    margin: 0 auto;
-}
 
 .logoimg1 {
     width: 50%;
