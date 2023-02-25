@@ -140,3 +140,7 @@ text color: #12529
     justify-content: center;
 }
 }
+
+.projcol1 h1, .projcol2 h1, .projcol3 h1 {
+    color: #fff;
+}
