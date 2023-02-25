@@ -16,10 +16,10 @@ body{
 
 h1{
     font-family: 'room_205regular';
-    font-size: 2.5rem !important;
+    font-size: 2.5rem ;
 }
 .mainhead{
-    font-size: 8rem !important;  
+    font-size: 8rem ;  
 }
 p{
     font-family: 'Open Sans', sans-serif;
