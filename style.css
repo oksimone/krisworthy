@@ -144,3 +144,15 @@ text color: #12529
 .projcol1 h1, .projcol2 h1, .projcol3 h1 {
     color: #fff;
 }
+
+/*something different*/
+.subimg img  {
+    --mask:
+      radial-gradient(72.50px at 102.50px 50%,#000 99%,#0000 101%) 0 calc(50% - 100px)/51% 200px repeat-y,
+      radial-gradient(72.50px at -52.5px 50%,#0000 99%,#000 101%) 50px 50%/calc(51% - 50px) 200px repeat-y,
+          radial-gradient(72.50px at calc(100% - 102.50px) 50%,#000 99%,#0000 101%) 100% calc(50% - 100px)/51% 200px repeat-y,
+      radial-gradient(72.50px at calc(100% + 52.50px) 50%,#0000 99%,#000 101%) calc(100% - 50px) 50%/calc(51% - 50px) 200px repeat-y;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+  };
+  
