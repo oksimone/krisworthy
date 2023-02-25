@@ -145,6 +145,16 @@ text color: #12529
     color: #fff;
 }
 
+.projcol2 .logoimg1 {
+    width: 50%;
+}
+.projcol3 .bigorsmalllog {
+    width: 100%;
+    max-width: 10rem;
+    margin: 0 auto;
+}
+
+
 /*something different*/
 .subimg img  {
     --mask:
@@ -156,11 +166,3 @@ text color: #12529
             mask: var(--mask);
   };
 
-.projcol2 .logoimg1 {
-    width: 50%;
-}
-.projcol3 .bigorsmalllog {
-    width: 100%;
-    max-width: 10rem;
-    margin: 0 auto;
-}
